@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+class Producer extends Model
+{
+    public function products()
+    {
+    	$this->hasMany(Product::class);
+    }
+}
